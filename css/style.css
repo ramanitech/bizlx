@@ -1,0 +1,1432 @@
+:root{
+	--button-color: #fd0606;
+	--green-button: #28a745;
+	--border-color:#000;
+	--button-hover-color:#fff;
+	--all-button-color: #fd0606;
+	--background-color: #f1f3f4;
+	--button-hover-background-color: #000;
+	--text-hover:#fd0606;
+	--text-color:#000;
+	--text-right:right;
+	--padding-top:5px;
+	--padding-bottom:5px;
+	--text-decoration:none;
+	--heading-font-size:20px;
+	--overlay-color:#00000054;
+	--border-radius:5px;
+}
+body{
+	font-family: 'Baloo Paaji 2', sans-serif !important;
+}
+.menu-bar {
+    position: sticky;
+    top: 0;
+    background: #fff !important;
+    z-index: 99999;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+button#search-buton:hover {
+    background: #000 !important;
+    border-color: #000 !important;
+}
+#header {
+  margin-bottom: 0px;
+}
+#search-buton {
+    border-radius: 0px 10px 10px 0px !important;
+	 background: var(--all-button-color);
+	position: relative;
+    left: 1px;
+}
+a.category-link:hover p {
+    color: var(--text-hover);
+}
+a.category-link:hover {
+    text-decoration: var(--text-decoration);
+}
+.top-bar {
+	background:var(--background-color);
+	padding-top:var(--padding-top);
+	padding-bottom:var(--padding-bottom);
+}
+button.btn.btn-danger.list-business {
+	background:var(--button-color);
+	padding-top:var(--padding-top);
+	padding-bottom:var(--padding-bottom);
+}
+button.btn.btn-danger.list-business:hover {
+	background:var(--button-hover-background-color);
+	border-color: var(--border-color);
+}
+button.btn.btn-danger.search:hover{
+	background:var(--button-hover-background-color);
+}
+a.login {
+	color:var(--text-color);
+}
+a.login:hover{
+	text-decoration:var(--text-decoration);
+	color:var(--button-color);
+}
+.buttons {
+    text-align: var(--text-right);
+}
+select#sel1 {
+    border: none !important;
+    padding-left: 5px;
+}
+.forms {
+    border: 1px solid #000 !important;
+	border-radius:10px;
+}
+select#sel1:focus {
+    box-shadow: none;
+    border: none;
+}
+span.input-group-text {
+    background: none !important;
+    border: none;
+    padding-right: 0;
+}
+div#form-center {
+    align-self: center;
+}
+.menu-bar {
+    border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+.icon {
+     color: var(--text-hover);
+}
+div#owl-carousel2 img {
+    width: auto;
+    margin: 0 auto;
+}
+.find-job img.img-fluid.hotel-deals {
+    width: auto;
+    margin: 0 auto;
+}
+.find-job p {
+    text-align: center;
+}
+p.hotels {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.city-deals {
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    padding: 10px;
+    width: 100% !important;
+}
+.detail1 {
+    background: #ff00008c;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+span.number {
+    background: #fff;
+    padding: 0px 5px 0px 5px;
+    border-radius: 100px;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 13px;
+    top: 0px;
+}
+.detail2 {
+    background: #ff00008c;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+span.number1 {
+    background: #fff;
+    padding: 0px 5px 0px 5px;
+    border-radius: 100px;
+     color: var(--text-color);
+    font-weight: bold;
+    font-size: 13px;
+    top: 0px;
+}
+span.border-s {
+    border-bottom: 1px solid red;
+}
+ul.ulli li a:hover {
+    color: var(--text-hover);
+}
+h4.home-service {
+    font-size: var(--heading-font-size);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.overlay {
+    background: var(--overlay-color);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+p.Restaurant {
+    position: absolute;
+    z-index: 999;
+    bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+p.category {
+    color: var(--text-color);
+    text-align: center;
+    font-weight: 500;
+}
+.owl-theme .owl-nav [class*='owl-']:hover {
+    color: #000 !important;
+    text-decoration: none;
+}
+button.owl-next {
+	  background: #f1f3f4 !important;
+    width: 33px;
+    height: 33px;
+    border-radius: 100px !important;
+}
+button.owl-prev {
+    background: #f1f3f4 !important;
+    width: 33px;
+    height: 33px;
+    border-radius: 100px !important;
+}
+button.owl-prev span {
+    font-size: 30px !important;
+    position: relative;
+    top:-7px;
+}button.owl-next span {
+    font-size: 30px !important;
+    position: relative;
+    top: -7px;
+}
+div#hotel-s h4.home-service {
+    margin-bottom: 0;
+}
+div#hotel-s {
+    align-self: center;
+}
+.owl-dots {
+    display: none;
+}
+span.follow-heading {
+    color: #333 !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    bottom: 0px !important;
+    margin-right: 20px;
+}
+img.img-fluid.fb {
+    width: 100%;
+    max-width: 40px;
+}
+img.img-fluid.playstore {
+    width: 100%;
+    max-width: 180px;
+}
+h2.footer-heading {
+     color: var(--text-color);
+    font-size: 18px;
+    font-weight: bold;
+}
+ul.ulli {
+    color: #a5a5a5;
+    padding: 0;
+    list-style: none;
+    line-height: 35px;
+    margin-bottom: 0px !important;
+}
+ul.ulli li a {
+    color: #333;
+    text-decoration: none !important;
+}
+.last p {
+    margin-bottom: 0px;
+}
+.last {
+    text-align: center;
+    background: #333333;
+    color: #fff;
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.footer {
+    background: #f2f2f2;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+img#overlays {
+    height: 150px;
+    width: 100% !important;
+    object-fit: cover;
+}
+p.Valid-upto {
+    margin-bottom: 5px;
+}
+.hot-deal-section:hover p.hotels {
+    color: red !important;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+}
+span.price-color {
+    color: #fd0606;
+}
+p.hot-deal-price {
+    margin-bottom: 5px;
+}
+.hot-deal-section {
+    border: 1px solid #ccc;
+
+}
+ul.nav.nav-pills li a:hover {
+    background: #fd0606 !important;
+    color: #fff !important;
+}
+.hot-icon span {
+    font-size: 14px;
+    margin-left: 5px;
+    position: relative;
+    bottom: 3px;
+}
+.hot-icon {
+    display: flex;
+}
+.hot-deals-headings {
+    padding: 10px;
+}
+.hot-deal-section p.hotels {
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+button.close {
+    color: #fff;
+}
+.modal-header {
+    position: absolute;
+    top: -50px;
+    right: 10px;
+}
+.modal-dialog {
+    width: 100% !important;
+    max-width: 440px;
+    position: relative;
+    top: 80px;
+}
+/*Profile page*/
+img.banners {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.contact p {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+#main #faq .card .card-header .btn-header-link:after {
+    content: "\f107";
+    font-family: FontAwesome;
+    font-weight: 900;
+    float: right;
+}
+#main #faq .card .card-header .btn-header-link.collapsed:after {
+    content: "\f106";
+}
+button.btn.btn-success.Share {
+	background:var(--green-button);
+    font-size: 20px;
+}
+button.btn.btn-success.Share:hover {
+	background:var(--button-hover-background-color);
+	border-color:var(--border-color);
+}
+button.btn.btn-danger.Enquiry {
+	background:var(--button-color);
+    font-size: 20px;
+}
+button.btn.btn-danger.Enquiry:hover {
+	background:var(--button-hover-background-color);
+	border-color:var(--border-color);
+}
+.youtube-icon {
+    background-image: url(../images/banner1.jpg);
+    width: 100%;
+    height: 232px;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    text-align: center;
+}
+img.img-fluid.img-thumbnail {
+    padding: 0px !important;
+    background: none !important;
+    border: none !important;
+    border-radius: 10px;
+}
+p.Hot-Deals-heading {
+    color: var(--text-color) !important;
+    margin-bottom: 0px !important;
+    font-size: 25px;
+    font-weight: 500;
+}
+.fa.fa-check {
+     color: var(--text-hover);
+}
+textarea#comment {
+    margin-top: 20px;
+}
+a.nav-link.active {
+    color: #fff !important;
+}
+ul.nav.nav-pills {
+    justify-content: end;
+}
+a.nav-link {
+    color: #000 !important;
+}
+form.tab-form {
+    background: #f1f3f4;
+    padding: 20px;
+}
+a#menus-review {
+    margin-left: 10px;
+	padding: 5px 10px 5px 10px;
+	font-size: 14px;
+}
+.view-comments {
+    display: flex;
+    justify-content: space-between;
+}
+img.user-img {
+    width: 100% !important;
+    max-width: 60px;
+	
+}
+
+a.nav-link.active {
+    background: #fd0606 !important;
+    padding: 5px 10px 5px 10px;
+	font-size: 14px;
+}
+.review-icons i {
+    font-size: 22px;
+    margin-right: 5px;
+    color: var(--text-hover);
+}
+table.table thead tr th {
+    border: 1px solid #ccc;
+    min-width: 150px;
+    background: #f8f7f9;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+table.table.table-bordered thead tr th {
+    min-width: 319px !IMPORTANT;
+}
+ul.list li {
+    font-size: 20px;
+    line-height: 35px;
+}
+i.fa.fa-youtube-play {
+    font-size: 30px;
+    color: red;
+    height: 50px;
+    padding-top: 10px;
+    width: 50px;
+    text-align: center;
+    background: #fff;
+    border-radius: 100px;
+    position: relative;
+    top: 80px;
+}
+ul.list {
+    padding: 0;
+    list-style: none;
+}
+p.hotel-price {
+    color: var(--button-color);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.profile-page-buttons {
+    text-align: var(--text-right);
+}
+.carousel-caption {
+    position: absolute;
+    top: 150px;
+}
+.review-icon i {
+    font-size: 22px;
+    margin-right: 5px;
+    color: var(--text-hover);
+}
+span.write-a-review a {
+    text-decoration: underline;
+    color: var(--text-hover);
+}
+.second-section {
+    background: var(--background-color);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+span.write-a-review {
+    position: relative;
+    bottom: 0;
+    font-size: 22px;
+    font-weight: bold;
+}    
+p.rating {
+    font-size: 20px;
+    font-weight: 500;
+	margin-bottom: 0;
+}
+i.fa.fa-whatsapp {
+    font-size: 22px;
+    background: #29b716;
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+a.phone-bo {
+    color: var(--text-color);
+    font-size: 22px;
+    text-decoration: none;
+}
+a.phone-bo:hover {
+    color: var(--text-color);
+    text-decoration: var(--text-decoration);
+}
+span.call-now {
+    color: var(--text-color);
+    font-family: 'Baloo Paaji 2', sans-serif !important;
+}
+i.fa.fa-phone {
+    font-size: 22px;
+    color: var(--text-hover);
+}
+h2.ryatt {
+    font-size: 30px;
+    font-weight: bold;
+   margin-bottom: 0;
+}
+.sidebar.shadow {
+    background: var(--background-color);
+    padding: 10px;
+    margin-top: 40px;
+	    margin-bottom: 10px;
+}
+.card-body.tabs-body {
+    padding: 0px !important;
+    padding-top: 20px !important;
+}
+
+div#job-sections {
+    height: 420px;
+    overflow-y: scroll;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+h4.vacancy {
+    color: red;
+}
+#main {
+    margin: 50px 0;
+}
+#main #faq .card {
+    margin-bottom: 15px;
+    border: 0;
+}
+.sections {
+    background: #000;
+    padding: 5px 0px 5px 20px;
+    margin-bottom: 20px;
+}
+.sections h2 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+#main #faq .card .card-header {
+    border: 0;
+    -webkit-box-shadow: 0 0 20px 0 rgb(213 213 213 / 50%);
+    box-shadow: 0 0 20px 0 rgb(213 213 213 / 50%);
+    border-radius: 2px;
+    padding: 0;
+}
+#main #faq .card .card-header .btn-header-link {
+    color: #fff;
+    display: block;
+    text-align: left;
+    background: #000;
+    color: #fff;
+    padding: 8px 15px 8px 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/*end*/
+/*post job*/
+.Post-Job {
+    background-image: linear-gradient(rgba(0 0 0 / 48%), rgba(0 0 0 / 43%)), url(../images/post-job.jpg);
+    padding: 20px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.left-logo {
+    text-align: center;
+    background: #eaeaea;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+form.post-job-form select {
+    background: #eaeaea;
+}
+form.post-job-form textarea#JobDetails {
+    background: #eaeaea;
+}
+form.post-job-form {
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+form.post-job-form input {
+    background: #eaeaea;
+}
+.post-job-section {
+    background: #f5f5f5;
+    margin-bottom: 20px;
+}
+.left-logo h4 {
+    margin-top: 20px;
+    color: red;
+}
+img#hyatt-logo {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 80px;
+}
+.left-logo p {
+    width: 70%;
+    margin: 0 auto;
+}
+.Post-Job h2 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 85px;
+}
+/*end*/
+/*advance search*/
+.filter {
+    display: flex;
+    justify-content: space-between;
+}
+button.ml-2.mb-1.close.filters {
+    color: #000 !important;
+}
+div#pages {
+    margin-top: 30px;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+.advance-search-sidebar {
+    background: #f1f3f4;
+    padding: 15px;
+}
+span.rateing {
+    background: #000;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    position: relative;
+    bottom: 5px;
+}
+.advance-searchs button.btn.btn-danger.list-business {
+    margin-right: 0px !important;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.price-range-slider .range-bar .ui-slider-handle {
+    border: none;
+    border-radius: 25px;
+    background: #fd0606;
+    border: 2px solid #fd0606;
+    height: 17px;
+    width: 17px;
+    top: -0.52em;
+    cursor: pointer;
+}
+.toasts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.toasts > div {
+    display: flex;
+    flex-basis: calc(36% - 10px);
+    justify-content: center;
+    flex-direction: column;
+}
+.price-range-slider {
+    width: 100%;
+    padding: 0 10px;
+}
+.price-range-slider .range-value input {
+    width: 100%;
+    background: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: initial;
+    box-shadow: none;
+    border: none;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+.price-range-slider .range-bar .ui-slider-range {
+    background: #000;
+}
+.advance-searchs h4 {
+    font-size: 16px !IMPORTANT;
+}
+.advance-searchs .review-icons {
+    padding-left: 10px;
+}
+div#filter-price {
+    margin-top: 20px;
+}
+.sections {
+    background: #000;
+    padding: 5px 0px 5px 20px;
+    margin-bottom: 20px;
+}
+.price-range-slider .range-bar {
+    border: none !important;
+    background: #fd0606;
+    height: 4px;
+    width: 96%;
+    margin-left: 8px;
+}
+
+/*end*/
+/*hot deals*/
+div#deals-tab {
+    padding-top: 0px !important;
+}
+h2.new-launch {
+    font-size: 30px;
+    font-weight: 600;
+}
+.products h4 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid;
+    margin-right: 5px;
+}
+.pagination a.active {
+    background-color: #000 !important;
+    color: white;
+    border: 1px solid #000 !important;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+.map-icon {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.products a {
+    color: #000;
+    text-decoration: none !important;
+}
+img.job {
+    width: 100%;
+}
+.products {
+    border: 1px solid #ccc;
+    height: 100%;
+}
+.map-icon span {
+    font-size: 14px;
+    margin-left: 5px;
+    position: relative;
+    bottom: 3px;
+}
+i.fa.fa-map-marker {
+    color: red;
+}
+.products a:hover {
+    color: var(--text-hover) !important;
+}
+.hot-deals-section .col-sm-6.col-md-6.col-lg-3 {
+    margin-bottom: 20px;
+}
+.products:hover {
+    box-shadow: 1px 5px 20px 0px #00000017;
+    transition: 0.5s;
+}
+/*end*/
+/*deal display*/
+.food-drink {
+    text-align: center;
+    background: rgb(248, 247, 249);
+    padding: 20px;
+    border-radius: 5px;
+    height: 100%;
+}
+ul.foods {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+span.bizlx-brand {
+    color: #fd0606;
+}
+.gallery-scrolls {
+    background: #f8f7f9;
+    padding: 20px;
+    height: 100% !important;
+}
+h4.hotdeals-benefits {
+    margin-bottom: 15px;
+}
+h4.hoteldeals {
+    color: #fd0606;
+}
+ul.foods li {
+    font-size: 15px;
+    text-align: left;
+    line-height: 24px;
+}
+.food-drink p {
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+table.table tbody tr td {
+    border: 1px solid #ccc;
+}
+table.table {
+    margin-top: 30px;
+}
+
+
+i#whatsapp {
+    margin: 0px !important;
+    position: relative;
+    top: 3px;
+}
+
+form.job-page-form input {
+    background: #f2f2f2 !important;
+}
+form.job-page-form #Massage {
+	background: #f2f2f2 !important;
+}
+.call-now-button {
+    display: flex;
+    justify-content: start;
+}
+p.deals-section {
+    font-size: 20px;
+}
+img.img-fluid.top-listing {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.col-md-6.hot-deal-tab ul.nav.nav-pills {
+    justify-content: end;
+}
+span.span-price {
+    font-weight: bold;
+    color: #fd0606;
+}
+button#call-now-buton {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div#applynow .modal-header {
+    position: unset;
+    top: 0;
+    right: 0;
+}
+div#applynow button.close {
+    color: #000 !important;
+}
+div#applynow .modal-content {
+    border-radius: 20px;
+    box-shadow: 6px 3px 20px 5px #0000002e;
+}
+div#applynow .modal-dialog {
+    width: 100% !important;
+    max-width: 440px;
+    position: relative;
+    top: 30px;
+}
+i.fa.fa-phone.phone-call {
+    color: #fff !important;
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+/*end*/
+button.btn.btn-danger.list-business {
+    margin-right: 10px;
+}
+p.date {
+    margin-bottom: 5px;
+}
+.comment {
+    margin: 0;
+}
+
+/*media Query start*/
+@media (max-width: 300px) { 
+span.search-hide {
+    display: none;
+}
+.icon {
+    display: none !important;
+}
+.profile-page-buttons {
+    text-align: left;
+    margin-top: 10px;
+}
+.col-lg-4.col-md-4.col-xs-6.thumb {
+    width: 33%;
+}
+i.fa.fa-whatsapp {
+    font-size: 22px;
+    background: #29b716;
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 100px;
+    margin-left: 5px;
+}
+i.fa.fa-phone {
+    font-size: 18px;
+    color: var(--text-hover);
+}
+}
+@media (max-width: 575.98px) { 
+img.banners {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.hot-deal-section {
+    border: 1px solid #ccc;
+    height: auto !IMPORTANT;
+}
+div#hotel-s {
+    width: 30%;
+}
+button.owl-prev span {
+    font-size: 30px !important;
+    position: relative;
+    top: -5px;
+}
+
+button.owl-next span {
+   font-size: 30px !important;
+    position: relative;
+    top: -5px;
+}
+div#tab-hot-deal {
+    margin-top: 20px;
+}
+.col-md-8.hot-deal-tab {
+    width: 70%;
+}
+p.Restaurant {
+    position: absolute;
+    z-index: 999;
+    bottom: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+.col-md-6.hot-deal-tab ul.nav.nav-pills {
+    justify-content: end;
+}
+.food-drink {
+    text-align: center;
+    background: rgb(248, 247, 249);
+    padding: 20px;
+    border-radius: 5px;
+    height: auto;
+    margin-bottom: 30px;
+}
+a.login {
+    position: absolute;
+    right: 20px;
+    top: 6px;
+    font-size: 16px;
+}
+h2.new-launch {
+    font-size: 24px;
+    font-weight: 600;
+}
+p.deals-section {
+    font-size: 17px;
+}
+.call-now-button button {
+    font-size: 13px !important;
+}
+i.fa.fa-phone {
+    font-size: 18px;
+    color: var(--text-hover);
+}
+input#name {
+    margin-bottom: 20px;
+}
+.products h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.map-icon {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.map-icon span {
+    font-size: 17px;
+    margin-left: 5px;
+    position: relative;
+    bottom: 3px;
+}
+i.fa.fa-map-marker {
+    color: red;
+    font-size: 20px !important;
+}
+span.write-a-review {
+    position: relative;
+    bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.review-icons i {
+    font-size: 18px;
+    margin-right: 5px;
+    color: var(--text-hover);
+}
+.contact p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+p.rating {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+.profile-page-buttons {
+    text-align: left;
+    margin-top: 10px;
+}
+.carousel-caption {
+    position: absolute;
+    top: 60px;
+}
+span.search-hide {
+    display: none;
+}
+img.img-fluid.logo-img {
+    width: 100%;
+    max-width: 50px;
+}
+button.btn.btn-danger.list-business {
+    background: var(--button-color);
+    padding-top: var(--padding-top);
+    padding-bottom: var(--padding-bottom);
+    font-size: 14px;
+    margin-right: 0px;
+}
+i.fa.fa-whatsapp {
+    font-size: 22px;
+    background: #29b716;
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 100px;
+    margin-left: 5px;
+}
+.buttons {
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 20px;
+}
+a.login {
+    color: var(--text-color);
+	font-size: 14px;
+}
+.icon {
+    display: none !important;
+}
+p.category {
+    color: var(--text-color);
+    text-align: center;
+    font-weight: 500;
+    font-size: 13px;
+}
+p.hotels {
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+img.img-fluid.playstore {
+    width: 100%;
+    max-width: 115px;
+}
+span.follow-heading {
+    color: #333 !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    bottom: 0px !important;
+    margin-right: 5px;
+}
+img.img-fluid.fb {
+    width: 100%;
+    max-width: 27px;
+}
+select#sel1 {
+    border: none !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+}
+.top-bar {
+    background: #fff;
+}
+.forms {
+    border: 1px solid #000 !important;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.menu-bar {
+	position: static;
+    margin-top: 0px !important;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+h2.footer-heading {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: bold;
+}
+button.btn.btn-danger.search {
+    background: var(--all-button-color);
+    border-radius: 0px 10px 10px 0px !important;
+	position: relative;
+    left: 1px;
+}
+.detail1 {
+    background: #ff00008c;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 10px;
+    margin-right: 5px;
+}
+.detail2 {
+    background: #ff00008c;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 10px;
+}
+span.number {
+    background: #fff;
+    padding: 0px 3px 0px 3px;
+    border-radius: 100px;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 10px;
+    position: relative;
+    top: 0;
+    left: 5px;
+}
+.city-deals {
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    padding: 5px;
+    width: 100% !important;
+}
+span.number1 {
+    background: #fff;
+    padding: 0px 3px 0px 3px;
+    border-radius: 100px;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 10px;
+    position: relative;
+    top: 0;
+    left: 8px;
+}
+.col-lg-4.col-md-4.col-xs-6.thumb {
+    width: 33%;
+}
+div#raiting {
+    width: 50%;
+    text-align: right;
+}
+div#names {
+    width: 50%;
+}
+img#hyatt-logo {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+}
+.left-logo p {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+form.post-job-form {
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+}
+}
+ @media (min-width: 576px) and (max-width: 767.98px) {
+span.search-hide {
+    display: none;
+}
+img#hyatt-logo {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+}
+.left-logo p {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+form.post-job-form {
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+}
+.products {
+    border: 1px solid #ccc;
+    height: 100%;
+}
+div#names {
+    width: 50%;
+}
+div#raiting {
+    width: 50%;
+    text-align: right;
+}
+.icon {
+    display: none !important;
+}
+select#sel1 {
+    border: none !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+}
+img.logo-hotel {
+    width: 100%;
+    max-width: 100px;
+}
+.review-icons i {
+    font-size: 15px;
+    margin-right: 0px;
+    color: #fd0606;
+}
+span.write-a-review {
+    position: relative;
+    bottom: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+i.fa.fa-phone {
+    font-size: 15px;
+    color: var(--text-hover);
+}
+a.phone-bo {
+    color: var(--text-color);
+    font-size: 15px;
+    text-decoration: none;
+}
+p.rating {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+h2.ryatt {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+i.fa.fa-whatsapp {
+    font-size: 15px;
+    background: #29b716;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 100px;
+    margin-left: 0;
+}
+button.btn.btn-success.Share {
+    background: var(--green-button);
+    font-size: 15px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+button.btn.btn-danger.Enquiry {
+    background: var(--button-color);
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.col-lg-4.col-md-4.col-xs-6.thumb {
+    width: 33%;
+}
+.call-now-button button {
+    width: auto !important;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+img.logo-hotel {
+    width: 100%;
+    max-width: 174px;
+}
+h2.new-launch {
+    font-size: 23px;
+    font-weight: 600;
+    margin: 0 !important;
+    position: relative;
+    top: 5px;
+}
+.thumb {
+    width: 33%;
+}
+.review-icons i {
+    font-size: 15px;
+    margin-right: 0px;
+    color: #fd0606;
+}
+span.write-a-review {
+    position: relative;
+    bottom: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+i.fa.fa-phone {
+    font-size: 15px;
+    color: var(--text-hover);
+}
+a.phone-bo {
+    color: var(--text-color);
+    font-size: 15px;
+    text-decoration: none;
+}
+p.rating {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+h2.ryatt {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+i.fa.fa-whatsapp {
+    font-size: 15px;
+    background: #29b716;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 100px;
+    margin-left: 0;
+}
+button.btn.btn-success.Share {
+    background: var(--green-button);
+    font-size: 15px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+button.btn.btn-danger.Enquiry {
+    background: var(--button-color);
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.call-now-button button {
+    width: auto !important;
+}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+.call-now-button button {
+    font-size: 16px !important;
+}
+.call-now-button {
+    display: block;
+    justify-content: start;
+}
+                                                                       
