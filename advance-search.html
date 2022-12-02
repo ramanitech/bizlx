@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Deal Display</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="images/logo.png" href="images/logo.png">
+  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.css">
+	<link rel="stylesheet" href="css/baloo-paaji-2.css">
+	<script src="js/jquery.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+		<div class="top-bar">
+			<div class="container">
+				<div class="buttons">
+					<button type="button" class="btn btn-danger list-business" id="lists">List Business</button>
+					<a href="#" class="login">Login</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="menu-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2 col-md-2 col-lg-3">
+						<a href="index.html"><img src="images/logo.png" class="img-fluid logo-img"></a>
+					</div>
+					<div class="col-sm-10 col-md-10 col-lg-9" id="form-center">
+						<div class="forms">
+							<form action="advance-search.html">
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="fa fa-th-list icon"></i></span>
+									</div>
+									<select class="form-control" id="sel1">
+										<option>Category</option>
+										<option>Loan</option>
+										<option>Buffet</option>
+										<option>Restaurant </option>
+										<option>Salon </option>
+										<option>Health</option>
+										<option>Spa </option>
+										<option>Real Estate</option>
+										<option>Hotel</option>
+										<option>Shopping</option>
+										<option>B2B</option>
+									</select>
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="fa fa-map-marker icon"></i></span>
+									</div>
+									<select class="form-control" id="sel1">
+										<option>Near</option>
+										<option>Chandigarh</option>
+										<option>Mohali</option>
+										<option>Shimla</option>
+										<option>Delhi</option>
+										<option>Agra</option>
+									</select>
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="fa fa-check-square-o icon"></i></span>
+									</div>
+									<select class="form-control" id="sel1">
+										<option>Deals</option>
+										<option>Hot Deals</option>
+										<option>Video</option>
+										<option>Jobs</option>
+									</select>
+									<button type="button" class="btn btn-danger search" id="search-buton">
+										<i class="fa fa-search"></i> <span class="search-hide">Search</span>
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+                                                                                                                           
+		<div class="advance-search">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-4">
+						<div class="advance-search-sidebar shadow sticky">
+							<div class="filter">
+								<p>Filter</p>
+								<p><a href="#">Clear all</a></p>
+							</div>
+							<div class="toasts">
+								
+								<div class="toast last-toast" data-autohide="false">
+									<div class="toast-header">
+										<strong class="mr-auto text-primary">Hotels</strong>
+										<button type="button" class="ml-2 mb-1 close filters" data-dismiss="toast">&times;</button>
+									</div>
+								</div>
+								<div class="toast last-toast" data-autohide="false">
+									<div class="toast-header">
+										<strong class="mr-auto text-primary">Rooms</strong>
+										<button type="button" class="ml-2 mb-1 close filters" data-dismiss="toast">&times;</button>
+									</div>
+								</div>
+								<div class="toast last-toast" data-autohide="false" id="">
+									<div class="toast-header">
+										<strong class="mr-auto text-primary">Hotels</strong>
+										<button type="button" class="ml-2 mb-1 close filters" data-dismiss="toast">&times;</button>
+									</div>
+								</div>
+								<div class="toast last-toast" data-autohide="false" id="">
+									<div class="toast-header">
+										<strong class="mr-auto text-primary">Hotels</strong>
+										<button type="button" class="ml-2 mb-1 close filters" data-dismiss="toast">&times;</button>
+									</div>
+								</div>
+							</div>
+							<div class="sections" id="filter-price">
+								<h2>Filter By Price</h2>
+							</div>
+							<div class="price-range-slider">
+								<div id="slider-range" class="range-bar"></div>
+								<p class="range-value">
+									<input type="text" id="amount" readonly>
+								</p>
+							</div>
+							<div class="sections">
+								<h2>Filter</h2>
+							</div>
+							<div class="price-range-slider">
+								<div id="range-slider" class="range-bar"></div>
+								<p class="range-value">
+									<input type="text" id="amounts" readonly>
+								</p>
+							</div>
+							<div class="sections">
+								<h2>Category</h2>
+							</div>
+							<form action="/action_page.php">
+								<div class="form-check">
+									<label class="form-check-label" for="check2">
+										<input type="checkbox" class="form-check-input" id="check2" name="option2" >Hot Deal
+									</label>
+								</div>
+								<div class="form-check">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input">Jobs
+									</label>
+								</div>
+								<div class="form-check">
+									<label class="form-check-label">
+										<input type="checkbox" class="form-check-input">Video
+									</label>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-8">
+						<div class="row">
+							<div class="col-sm-4 col-md-4 col-lg-4">
+								<div class="products advance-searchs">
+									<a href="#"><img src="images/product-img.jpg " class="img-fluid product-img"/>
+									<h4>Aroma TARU Villa/ Cottages</h4></a>
+									<div class="review-icons">
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<span class="rateing">4.5</span>
+									</div>
+									<div class="map-icon">
+										<i class="fa fa-map-marker"></i> <span>Rajput Royal Cottage, Near Green Tax Barrier Shuru, ( Manali Naggar Road) , P.O.- Prini, Manali, Kullu, Hiamchal</span>
+									</div>
+									<a href="#"><button type="button" class="btn btn-danger list-business">Enquiry Now</button></a>
+								</div>
+							</div>
+							<div class="col-sm-4 col-md-4 col-lg-4">
+								<div class="products advance-searchs">
+									<a href="#"><img src="images/product-img1.jpg " class="img-fluid product-img"/>
+									<h4>The Manali Inn</h4></a>
+									<div class="review-icons">
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<span class="rateing">4.5</span>
+									</div>
+									<div class="map-icon">
+										<i class="fa fa-map-marker"></i> <span>Rajput Royal Cottage, Near Green Tax Barrier Shuru, ( Manali Naggar Road) , P.O.- Prini, Manali, Kullu, Hiamchal</span>
+									</div>
+									<a href="#"><button type="button" class="btn btn-danger list-business">Enquiry Now</button></a>
+								</div>
+							</div>
+							<div class="col-sm-4 col-md-4 col-lg-4">
+								<div class="products advance-searchs">
+									<a href="#"><img src="images/product-img2.jpg " class="img-fluid product-img"/>
+									<h4>Hotel Rishi Palace</h4></a>
+									<div class="review-icons">
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<span class="rateing">4.5</span>
+									</div>
+									<div class="map-icon">
+										<i class="fa fa-map-marker"></i> <span>Rajput Royal Cottage, Near Green Tax Barrier Shuru, ( Manali Naggar Road) , P.O.- Prini, Manali, Kullu, Hiamchal</span>
+									</div>
+									<a href="#"><button type="button" class="btn btn-danger list-business">Enquiry Now</button></a>
+								</div>
+							</div>
+						</div>
+						<div class="row" style="margin-top:20px">
+							<div class="col-sm-4 col-md-4 col-lg-4">
+								<div class="products advance-searchs">
+									<a href="#"><img src="images/product-img3.jpg " class="img-fluid product-img"/>
+									<h4>Hotel Ireland</h4></a>
+									<div class="review-icons">
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<span class="rateing">4.5</span>
+									</div>
+									<div class="map-icon">
+										<i class="fa fa-map-marker"></i> <span>Rajput Royal Cottage, Near Green Tax Barrier Shuru, ( Manali Naggar Road) , P.O.- Prini, Manali, Kullu, Hiamchal</span>
+									</div>
+									<a href="#"><button type="button" class="btn btn-danger list-business">Enquiry Now</button></a>
+								</div>
+							</div>
+							<div class="col-sm-4 col-md-4 col-lg-4">
+								<div class="products advance-searchs">
+									<a href="#"><img src="images/product-img4.jpg " class="img-fluid product-img"/>
+									<h4>Aroma TARU Villa/ Cottages</h4></a>
+									<div class="review-icons">
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<span class="rateing">4.5</span>
+									</div>
+									<div class="map-icon">
+										<i class="fa fa-map-marker"></i> <span>Rajput Royal Cottage, Near Green Tax Barrier Shuru, ( Manali Naggar Road) , P.O.- Prini, Manali, Kullu, Hiamchal</span>
+									</div>
+									<a href="#"><button type="button" class="btn btn-danger list-business" >Enquiry Now</button></a>
+								</div>
+							</div>
+							<div class="col-sm-4 col-md-4 col-lg-4">
+								<div class="products advance-searchs">
+									<a href="#"><img src="images/product-img5.jpg " class="img-fluid product-img"/>
+									<h4>Aroma TARU Villa/ Cottages</h4></a>
+									<div class="review-icons">
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<i class="fa fa-star-o"></i>
+										<span class="rateing">4.5</span>
+									</div>
+									<div class="map-icon">
+										<i class="fa fa-map-marker"></i> <span>Rajput Royal Cottage, Near Green Tax Barrier Shuru, ( Manali Naggar Road) , P.O.- Prini, Manali, Kullu, Hiamchal</span>
+									</div>
+									<a href="#"><button type="button" class="btn btn-danger list-business">Enquiry Now</button></a>
+								</div>
+							</div>
+						</div>
+						<div class="pagination" id="pages">
+							<a href="#"><i class="fa fa-angle-left"></i></a>
+							<a class="active" href="#">1</a>
+							<a href="#">2</a>
+							<a href="#">3</a>
+							<a href="#">4</a>
+							<a href="#"><i class="fa fa-angle-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		               
+
+
+
+
+					   
+		<!------=================Footer========================----->
+		<div class="Follow-Bizlx" style="margin-top:20px;">
+			<div class="container">
+				<div class="icons">
+					<span class="follow-heading">Follow Bizlx</span>
+					<a href="https://www.facebook.com/bizlx" target="_blank">
+						<img src="images/facebook -logo.png" class="img-fluid fb"/>
+					</a>
+					<a href="https://twitter.com/bizlx_" target="_blank">
+						<img src="images/twitter-logo.png" class="img-fluid fb"/>
+					</a>
+					<a href="https://www.instagram.com/bizlx_/" target="_blank">
+						<img src="images/instagram-logo.png" class="img-fluid fb"/>
+					</a>
+					<a href="https://www.linkedin.com/company/bizlx/" target="_blank">
+						<img src="images/linkedin-logo.png" class="img-fluid fb"/>
+					</a>
+					<a href="https://play.google.com/store/apps/details?id=com.bizlxapp" target="_blank">
+						<img src="images/playstore-logo.png" class="img-fluid playstore"/>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-6 col-md-3 col-lg-3">
+						<h2 class="footer-heading">GENERAL INFO</h2>
+						<ul class="ulli">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">About</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-2 col-lg-2">
+						<h2 class="footer-heading">RESOURCES</h2>
+						<ul class="ulli">
+							<li><a href="#">Payment</a></li>
+							<li><a href="#">Terms Of Use</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-2 col-lg-2">
+						<h2 class="footer-heading">RESELLER</h2>
+						<ul class="ulli">
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Register</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-3 col-lg-3">
+						<h2 class="footer-heading">BUSINESS LISTING</h2>
+						<ul class="ulli">
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Register</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-2 col-lg-2">
+						<h2 class="footer-heading">CONTACT</h2>
+						<ul class="ulli">
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="last">
+			<div class="container">
+				<p>Powered By : Bizlx.com™ - Daily Market Update, Hot Deals, Shopping, Sales ©     All Rights Reserved2022</p>
+			</div>
+		</div>
+		
+</body>
+</html>
+
+<script>
+$(document).ready(function(){
+  $('.toast').toast('show');
+});
+</script>
+
+<script>
+//-----JS for Price Range slider-----
+
+$(function() {
+	$( "#slider-range" ).slider({
+	  range: true,
+	  min: 1000,
+	  max: 10000,
+	  values: [ 1000, 10000 ],
+	  slide: function( event, ui ) {
+		$( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+	  }
+	});
+	$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+	  " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+});
+</script>
+<script>
+//-----JS for Price Range slider-----
+
+$(function() {
+	$( "#range-slider" ).slider({
+	  range: true,
+	  min: 1000,
+	  max: 10000,
+	  values: [ 1000, 10000 ],
+	  slide: function( event, ui ) {
+		$( "#amounts" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+	  }
+	});
+	$( "#amounts" ).val( "$" + $( "#range-slider" ).slider( "values", 0 ) +
+	  " - $" + $( "#range-slider" ).slider( "values", 1 ) );
+});
+</script>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Deal Display</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="images/logo.png" href="images/logo.png">
+  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.css">
+	<link rel="stylesheet" href="css/baloo-paaji-2.css">
+	<script src="js/jquery.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+</head>
+<body>
+		<div class="top-bar">
+			<div class="container">
+				<div class="buttons">
+					<button type="button" class="btn btn-danger list-business" id="lists">List Business</button>
+					<a href="#" class="login">Login</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="menu-bar" id="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2 col-md-2 col-lg-3">
+						<a href="index.html"><img src="images/logo.png" class="img-fluid logo-img"></a>
+					</div>
+					<div class="col-sm-10 col-md-10 col-lg-9" id="form-center">
+						<div class="forms">
+							<form action="advance-search.html">
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="fa fa-th-list icon"></i></span>
+									</div>
+									<select class="form-control" id="sel1">
+										<option>Category</option>
+										<option>Loan</option>
+										<option>Buffet</option>
+										<option>Restaurant </option>
+										<option>Salon </option>
+										<option>Health</option>
+										<option>Spa </option>
+										<option>Real Estate</option>
+										<option>Hotel</option>
+										<option>Shopping</option>
+										<option>B2B</option>
+									</select>
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="fa fa-map-marker icon"></i></span>
+									</div>
+									<select class="form-control" id="sel1">
+										<option>Near</option>
+										<option>Chandigarh</option>
+										<option>Mohali</option>
+										<option>Shimla</option>
+										<option>Delhi</option>
+										<option>Agra</option>
+									</select>
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="fa fa-check-square-o icon"></i></span>
+									</div>
+									<select class="form-control" id="sel1">
+										<option>Deals</option>
+										<option>Hot Deals</option>
+										<option>Video</option>
+										<option>Jobs</option>
+									</select>
+									<button type="button" class="btn btn-danger search" id="search-buton">
+										<i class="fa fa-search"></i> <span class="search-hide">Search</span>
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+                                                                                                                           
+		
+		<div class="Post-Job">
+			<div class="container">
+				<h2>Post Job</h2>
+			</div>
+		</div>
+		<div class="container">
+			<div class="post-job-section shadow">
+				<div class="row">
+					<div class="col-sm-12 col-md-6 col-lg-6">
+						<div class="left-logo">
+							<img src="images/logo-hotel.png" class="logo-hotel" id="hyatt-logo">
+							<h4>Hyatt Regency Dharamshala Resort</h4>
+							<p>To prepare, cook and serve food delegated as your responsibility, ensuring that the highest possible quality is maintained and that agreed standards for food preparation and presentation are met at all times under guidance from a senior chef. To monitor stock movement and be responsible for ordering on your section.</p>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-6">
+						<form action="job-inner-page.html" class="post-job-form">
+							<div class="row">
+								<div class="col-sm-6 col-md-6 col-lg-6">
+									<div class="form-group">
+										<label for="job-title">Job Title <span class="star">*</span></label>
+										<input type="text" class="form-control" placeholder="Job Title" id="job-title">
+									</div>
+								</div>
+								<div class="col-sm-6 col-md-6 col-lg-6">
+									<div class="form-group">
+										<label for="JobCategory">Job Category <span class="star">*</span></label>
+										<input type="text" class="form-control" placeholder="Job Category" id="JobCategory">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 col-md-6 col-lg-6">
+									<div class="form-group">
+										<label for="Education">Education <span class="star">*</span></label>
+										<input type="text" class="form-control" placeholder="Education" id="Education">
+									</div>
+								</div>
+								<div class="col-sm-6 col-md-6 col-lg-6">
+									<div class="form-group">
+										<label for="Experience ">Experience <span class="star">*</span></label>
+										<input type="text" class="form-control" placeholder="Experience" id="Experience ">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12 col-md-12 col-lg-12">
+									<div class="form-group">
+										<label for="sel1">Salary Package <span class="star">*</span></label>
+										<select class="form-control" id="sel1">
+											<option>---- Select ----</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+										<label for="comment">Job Details <span class="star">*</span></label>
+										
+										<textarea class="form-control" rows="3" id="JobDetails"></textarea>
+									
+									</div>
+								</div>
+							</div>
+						  <button type="submit" class="btn btn-success Share">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+					   
+		<!------=================Footer========================----->
+		<div class="Follow-Bizlx">
+			<div class="container">
+				<div class="icons">
+					<span class="follow-heading">Follow Bizlx</span>
+					<a href="https://www.facebook.com/bizlx" target="_blank">
+						<img src="images/facebook -logo.png" class="img-fluid fb"/>
+					</a>
+					<a href="https://twitter.com/bizlx_" target="_blank">
+						<img src="images/twitter-logo.png" class="img-fluid fb"/>
+					</a>
+					<a href="https://www.instagram.com/bizlx_/" target="_blank">
+						<img src="images/instagram-logo.png" class="img-fluid fb"/>
+					</a>
+					<a href="https://www.linkedin.com/company/bizlx/" target="_blank">
+						<img src="images/linkedin-logo.png" class="img-fluid fb"/>
+					</a>
+					<a href="https://play.google.com/store/apps/details?id=com.bizlxapp" target="_blank">
+						<img src="images/playstore-logo.png" class="img-fluid playstore"/>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-6 col-md-3 col-lg-3">
+						<h2 class="footer-heading">GENERAL INFO</h2>
+						<ul class="ulli">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">About</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-2 col-lg-2">
+						<h2 class="footer-heading">RESOURCES</h2>
+						<ul class="ulli">
+							<li><a href="#">Payment</a></li>
+							<li><a href="#">Terms Of Use</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-2 col-lg-2">
+						<h2 class="footer-heading">RESELLER</h2>
+						<ul class="ulli">
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Register</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-3 col-lg-3">
+						<h2 class="footer-heading">BUSINESS LISTING</h2>
+						<ul class="ulli">
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Register</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-2 col-lg-2">
+						<h2 class="footer-heading">CONTACT</h2>
+						<ul class="ulli">
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="last">
+			<div class="container">
+				<p>Powered By : Bizlx.com™ - Daily Market Update, Hot Deals, Shopping, Sales ©     All Rights Reserved2022</p>
+			</div>
+		</div>
+		<div class="modal fade" id="applynow">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+					 <h4 class="modal-title">Send Enquiry</h4>
+						<button type="button" class="close" data-dismiss="modal">×</button>
+					</div>
+					<!-- Modal body -->
+					<div class="modal-body">
+						<form action="/action_page.php" class="job-page-form"> 
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="name">First Name <span class="star">*</span></label>
+										<input type="text" class="form-control" id="name" placeholder="First Name" name="name" required>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="email">Email <span class="star">*</span></label>
+										<input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+										<label for="Phoneno">Phone no <span class="star">*</span></label>
+										<input type="text" class="form-control" id="Phoneno" placeholder="Phone No" name="Phoneno" required>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+										<label for="comment">Massage <span class="star">*</span></label>
+										<textarea class="form-control" rows="5" placeholder="Description.." id="Massage"></textarea>
+									</div>
+								</div>
+							</div>
+							<button type="submit" class="btn btn-success Share" >Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>
+
+<script>
+$(document).ready(function(){
+  $('.toast').toast('show');
+});
+</script>

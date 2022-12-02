@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Bizlx</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="icon" type="images/logo.png" href="images/logo.png">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.css">
+      <link rel="stylesheet" href="css/baloo-paaji-2.css">
+      <script src="js/jquery.slim.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/owl.carousel.js"></script>
+   </head>
+   <body>
+      <div class="top-bar">
+         <div class="container">
+            <div class="buttons">
+               <button type="button" class="btn btn-danger list-business" id="lists">List Business</button>
+               <a href="#" class="login">Login</a>
+            </div>
+         </div>
+      </div>
+      <div class="menu-bar">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-2 col-md-2 col-lg-3">
+                  <a href="index.html"><img src="images/logo.png" class="img-fluid logo-img"></a>
+               </div>
+               <div class="col-sm-10 col-md-10 col-lg-9" id="form-center">
+                  <div class="forms">
+                     <form action="advance-search.html">
+                        <div class="input-group">
+                           <div class="input-group-prepend">
+                              <span class="input-group-text"><i class="fa fa-th-list icon"></i></span>
+                           </div>
+                           <select class="form-control" id="sel1">
+                              <option>Category</option>
+                              <option>Loan</option>
+                              <option>Buffet</option>
+                              <option>Restaurant </option>
+                              <option>Salon </option>
+                              <option>Health</option>
+                              <option>Spa </option>
+                              <option>Real Estate</option>
+                              <option>Hotel</option>
+                              <option>Shopping</option>
+                              <option>B2B</option>
+                           </select>
+                           <div class="input-group-prepend">
+                              <span class="input-group-text"><i class="fa fa-map-marker icon"></i></span>
+                           </div>
+                           <select class="form-control" id="sel1">
+                              <option>Near</option>
+                              <option>Chandigarh</option>
+                              <option>Mohali</option>
+                              <option>Shimla</option>
+                              <option>Delhi</option>
+                              <option>Agra</option>
+                           </select>
+                           <div class="input-group-prepend">
+                              <span class="input-group-text"><i class="fa fa-check-square-o icon"></i></span>
+                           </div>
+                           <select class="form-control" id="sel1">
+                              <option>Deals</option>
+                              <option>Hot Deals</option>
+                              <option>Video</option>
+                              <option>Jobs</option>
+                           </select>
+                           <button type="button" class="btn btn-danger search" id="search-buton"><i class="fa fa-search"></i> <span class="search-hide">Search</span></button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <h4 class="home-service"><span class="border-s">Popular</span></h4>
+         <div class="contain">
+            <div id="owl-carousel2" class="owl-carousel owl-theme">
+               <div class="item">
+                  <a href="#" class="category-link">
+                     <img src="images/1.png" class="img-fluid" />
+                     <p class="category">Loan</p>
+                  </a>
+                  <a href="#" class="category-link">
+                     <img src="images/9.png" class="img-fluid" />
+                     <p class="category">Shopping</p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="#" class="category-link">
+                     <img src="images/2.png" class="img-fluid"/>
+                     <p class="category">Buffet</p>
+                  </a>
+                  <a href="#" class="category-link">
+                     <img src="images/10.png" class="img-fluid"/>
+                     <p class="category">B2B</p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="#" class="category-link">
+                     <img src="images/3.png" class="img-fluid"/>
+                     <p class="category">Restaurant </p>
+                  </a>
+                  <a href="#" class="category-link">
+                     <img src="images/11.png" class="img-fluid"/>
+                     <p class="category">Doctors</p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="#" class="category-link">
+                     <img src="images/4.png" class="img-fluid"/>
+                     <p class="category">Salon </p>
+                  </a>
+                  <a href="#" class="category-link">
+                     <img src="images/12.png" class="img-fluid"/>
+                     <p class="category">Contractors</p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="#" class="category-link">
+                     <img src="images/5.png" class="img-fluid"/>
+                     <p class="category">Health</p>
+                  </a>
+                  <a href="#" class="category-link">
+                     <img src="images/13.png" class="img-fluid"/>
+                     <p class="category">Travel</p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="#" class="category-link">
+                     <img src="images/6.png" class="img-fluid"/>
+                     <p class="category">Spa </p>
+                  </a>
+                  <a href="#" class="category-link">
+                     <img src="images/14.png" class="img-fluid"/>
+                     <p class="category">Education</p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="#" class="category-link">
+                     <img src="images/7.png" class="img-fluid"/>
+                     <p class="category">Real Estate</p>
+                  </a>
+                  <a href="#" class="category-link">
+                     <img src="images/15.png" class="img-fluid"/>
+                     <p class="category">Jobs</p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="#" class="category-link">
+                     <img src="images/8.png" class="img-fluid"/>
+                     <p class="category">Hotel</p>
+                  </a>
+                  <a href="#" class="category-link">
+                     <img src="images/16.png" class="img-fluid"/>
+                     <p class="category">Gym</p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="#" class="category-link">
+                     <img src="images/2.png" class="img-fluid"/>
+                     <p class="category">Buffet</p>
+                  </a>
+                  <a href="#" class="category-link">
+                     <img src="images/5.png" class="img-fluid"/>
+                     <p class="category">Health</p>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <h4 class="home-service"><span class="border-s">Top Ads</span></h4>
+         <div class="contain">
+            <div id="owl-carousel" class="owl-carousel owl-theme">
+               <div class="item">
+                  <a href="hotel-deatils.html" style="color:#fff;text-decoration:none;">
+                     <div class="overlay"></div>
+                     <img src="images/top-ads.jpg" class="img-fluid top-listing" />
+                     <p class="Restaurant">Himachal Taxi Service </p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="real-estate.html" style="color:#fff;text-decoration:none;">
+                     <div class="overlay"></div>
+                     <img src="images/top-ads-2.jpg" class="img-fluid top-listing"/>
+                     <p class="Restaurant">The Blue Stream Cottage</p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="salon.html" style="color:#fff;text-decoration:none;">
+                     <div class="overlay"></div>
+                     <img src="images/top-ads-3.jpg" class="img-fluid top-listing"/>
+                     <p class="Restaurant">Anurag Jewellers </p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="education.html" style="color:#fff;text-decoration:none;">
+                     <div class="overlay"></div>
+                     <img src="images/top-ads-4.jpg" class="img-fluid top-listing"/>
+                     <p class="Restaurant">Apple Hotels </p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="education.html" style="color:#fff;text-decoration:none;">
+                     <div class="overlay"></div>
+                     <img src="images/top-ads-5.jpg" class="img-fluid top-listing"/>
+                     <p class="Restaurant">Glacial Holidays
+                     </p>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <h4 class="home-service" style="margin-top:10px;"><span class="border-s">Find Jobs</span></h4>
+         <div class="contain">
+            <div id="find-job" class="owl-carousel owl-theme find-job">
+               <div class="item">
+                  <a href="jobs.html" class="category-link">
+                     <img src="images/accounts.png" class="img-fluid hotel-deals"/>
+                     <p class="category">Account</p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="jobs.html" class="category-link">
+                     <img src="images/BPO.png" class="img-fluid hotel-deals"/>
+                     <p class="category">BPO</p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="jobs.html" class="category-link">
+                     <img src="images/office.png" class="img-fluid hotel-deals"/>
+                     <p class="category">Bank Office</p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="jobs.html" class="category-link">
+                     <img src="images/bank.png" class="img-fluid hotel-deals"/>
+                     <p class="category">Banks</p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="jobs.html" class="category-link">
+                     <img src="images/cook.png" class="img-fluid hotel-deals"/>
+                     <p class="category">Cook</p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="jobs.html" class="category-link">
+                     <img src="images/delivery-boy.png" class="img-fluid hotel-deals"/>
+                     <p class="category">Delivery Boy</p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="jobs.html" class="category-link">
+                     <img src="images/delivery-boy.png" class="img-fluid hotel-deals"/>
+                     <p class="category">Delivery Boy</p>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container" id="tab-hot-deal">
+         <div class="row">
+            <div class="col-md-4" id="hotel-s">
+               <h4 class="home-service"><span class="border-s">Hotels</span></h4>
+            </div>
+            <div class="col-md-8 hot-deal-tab">
+               <ul class="nav nav-pills" role="tablist">
+                  <li class="nav-item">
+                     <a class="nav-link active" id="menus-review" data-toggle="pill" href="#home">Info</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" id="menus-review" data-toggle="pill" href="#menu1">Hot Deal</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" id="menus-review" data-toggle="pill" href="#menu2">Jobs</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <!-- Tab panes -->
+         <div class="tab-content">
+            <div id="home" class="tab-pane active">
+               <br>
+               <div class="contain">
+                  <div id="owl-carousel-info" class="owl-carousel owl-theme">
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/info-1.jpg" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">Hotel Wood Stock Inn</p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span> Manali, Distt. Kullu Himachal Pradesh - INDIA</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/info-2.jpg" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">Hotel White</p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span>Shimla, Himachal Pradesh 171001</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/info-3.jpg" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">Shivalaya Retreat Hotel</p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span> Manali, Himachal Pradesh 175131</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/info-4.jpg" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">Hotel Wood Stock Inn</p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span> Manali, Distt. Kullu Himachal Pradesh - INDIA</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/info-5.jpg" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">Hotel Green Tara</p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span>Manali, Himachal Pradesh, India-175131</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/info-6.jpg" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">The Himalayan Regency</p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span>Manali, Himachal Pradesh 175131</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+               <br>
+               <div class="contain">
+                  <div id="owl-carousel1" class="owl-carousel owl-theme">
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/hot-deal-home-1.jpg" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">Hotel ECO Groves Manali Best</p>
+                                 <p class="hot-deal-price">Price: <span class="price-color">₹1200 - 1800</span></p>
+                                 <p class="Valid-upto">Valid UpTo <span class="price-color">10dec - 25dec</span></p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span>Manali,Himachal Pradesh</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/hot-deal-home-2.jpg" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">Apple Hotel Work From Hills</p>
+                                 <p class="hot-deal-price">Price: <span class="price-color">₹1200 - 1800</span></p>
+                                 <p class="Valid-upto">Valid UpTo <span class="price-color">10dec - 25dec</span></p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span>Manali,Himachal Pradesh</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/hot-deal-home-3.png" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">Namah Hotel Manali</p>
+                                 <p class="hot-deal-price">Price: <span class="price-color">₹1200 - 1800</span></p>
+                                 <p class="Valid-upto">Valid UpTo <span class="price-color">10dec - 25dec</span></p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span>Manali,Himachal Pradesh</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/hot-deal-home-4.jpg" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">Pong View Dharamshala</p>
+                                 <p class="hot-deal-price">Price: <span class="price-color">₹2000  - 6000</span></p>
+                                 <p class="Valid-upto">Valid UpTo <span class="price-color">10dec - 25dec</span></p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span>Manali,Himachal Pradesh</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/hot-deal-home-5.jpg" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">Pong View Dharamshala</p>
+                                 <p class="hot-deal-price">Price: <span class="price-color">₹2000  - 6000</span></p>
+                                 <p class="Valid-upto">Valid UpTo <span class="price-color">10dec - 25dec</span></p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span>Manali,Himachal Pradesh</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/hot-deal-home-6.jpg" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">Work from Hills Manali</p>
+                                 <p class="hot-deal-price">Price: <span class="price-color">₹2000  - 6000</span></p>
+                                 <p class="Valid-upto">Valid UpTo <span class="price-color">10dec - 25dec</span></p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span>Manali,Himachal Pradesh</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+               <br>
+               <div class="contain">
+                  <div id="owl-carousel3" class="owl-carousel owl-theme">
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/job1.jpg" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">Hotel Receptionist</p>
+                                 <p class="hot-deal-price">Experience: <span class="price-color">2year - 4year</span></p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span>Manali,Himachal Pradesh</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/job2.jpg" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">Hotel Sweeper</p>
+                                 <p class="hot-deal-price">Experience: <span class="price-color">2year - 4year</span></p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span>Manali,Himachal Pradesh</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/job3.jpg" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">Hotel Cook</p>
+                                 <p class="hot-deal-price">Experience: <span class="price-color">2year - 4year</span></p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span>Manali,Himachal Pradesh</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/job4.jpg" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">Hotel Electrician</p>
+                                 <p class="hot-deal-price">Experience: <span class="price-color">2year - 4year</span></p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span>Manali,Himachal Pradesh</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/job2.jpg" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">Hotel Sweeper</p>
+                                 <p class="hot-deal-price">Experience: <span class="price-color">2year - 4year</span></p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span>Manali,Himachal Pradesh</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="hot-deal-section">
+                           <a href="hot-deal-inner-page.html" style="text-decoration:none;color:#000;"  >
+                              <img src="images/job1.jpg" id="overlays" class="img-fluid hotel-deals"/>
+                              <div class="hot-deals-headings">
+                                 <p class="hotels">Hotel Receptionist</p>
+                                 <p class="hot-deal-price">Experience: <span class="price-color">2year - 4year</span></p>
+                                 <div class="hot-icon">
+                                    <i class="fa fa-map-marker"></i> 
+                                    <span>Manali,Himachal Pradesh</span>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <h4 class="home-service"><span class="border-s">City Deals </span></h4>
+         <div class="contain">
+            <div id="owl-carousel-city" class="owl-carousel owl-theme">
+               <div class="item">
+                  <a href="city-hotel.html" style="color:#fff;text-decoration:none;">
+                     <div class="city-deals d-flex justify-content-between">
+                        <div class="detail1">Listing <span class="number">10</span></div>
+                        <div class="detail2">Deals <span class="number1">10</span></div>
+                     </div>
+                     <div class="overlay"></div>
+                     <img src="images/city1.jpg" class="img-fluid"/>
+                     <p class="Restaurant">Shimla </p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="city-hotel.html" style="color:#fff;text-decoration:none;">
+                     <div class="city-deals d-flex justify-content-between">
+                        <div class="detail1">Listing <span class="number">10</span></div>
+                        <div class="detail2">Deals <span class="number1">10</span></div>
+                     </div>
+                     <div class="overlay"></div>
+                     <img src="images/city2.jpg" class="img-fluid"/>
+                     <p class="Restaurant">Agra </p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="city-hotel.html" style="color:#fff;text-decoration:none;">
+                     <div class="city-deals d-flex justify-content-between">
+                        <div class="detail1">Listing <span class="number">10</span></div>
+                        <div class="detail2">Deals <span class="number1">10</span></div>
+                     </div>
+                     <div class="overlay"></div>
+                     <img src="images/city3.jpg" class="img-fluid"/>
+                     <p class="Restaurant">Delhi </p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="city-hotel.html" style="color:#fff;text-decoration:none;">
+                     <div class="city-deals d-flex justify-content-between">
+                        <div class="detail1">Listing <span class="number">10</span></div>
+                        <div class="detail2">Deals <span class="number1">10</span></div>
+                     </div>
+                     <div class="overlay"></div>
+                     <img src="images/city4.jpg" class="img-fluid "/>
+                     <p class="Restaurant">Mumbai </p>
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="city-hotel.html" style="color:#fff;text-decoration:none;">
+                     <div class="city-deals d-flex justify-content-between">
+                        <div class="detail1">Listing <span class="number">10</span></div>
+                        <div class="detail2">Deals <span class="number1">10</span></div>
+                     </div>
+                     <div class="overlay"></div>
+                     <img src="images/city4.jpg" class="img-fluid "/>
+                     <p class="Restaurant">Mumbai </p>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!------=================Footer========================----->
+      <div class="Follow-Bizlx">
+         <div class="container">
+            <div class="icons">
+               <span class="follow-heading">Follow Bizlx</span>
+               <a href="https://www.facebook.com/bizlx" target="_blank">
+               <img src="images/facebook -logo.png" class="img-fluid fb"/>
+               </a>
+               <a href="https://twitter.com/bizlx_" target="_blank">
+               <img src="images/twitter-logo.png" class="img-fluid fb"/>
+               </a>
+               <a href="https://www.instagram.com/bizlx_/" target="_blank">
+               <img src="images/instagram-logo.png" class="img-fluid fb"/>
+               </a>
+               <a href="https://www.linkedin.com/company/bizlx/" target="_blank">
+               <img src="images/linkedin-logo.png" class="img-fluid fb"/>
+               </a>
+               <a href="https://play.google.com/store/apps/details?id=com.bizlxapp" target="_blank">
+               <img src="images/playstore-logo.png" class="img-fluid playstore"/>
+               </a>
+            </div>
+         </div>
+      </div>
+      <div class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-6 col-md-3 col-lg-3">
+                  <h2 class="footer-heading">GENERAL INFO</h2>
+                  <ul class="ulli">
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#">Blog</a></li>
+                     <li><a href="#">About</a></li>
+                  </ul>
+               </div>
+               <div class="col-6 col-md-2 col-lg-2">
+                  <h2 class="footer-heading">RESOURCES</h2>
+                  <ul class="ulli">
+                     <li><a href="#">Payment</a></li>
+                     <li><a href="#">Terms Of Use</a></li>
+                     <li><a href="#">Privacy Policy</a></li>
+                  </ul>
+               </div>
+               <div class="col-6 col-md-2 col-lg-2">
+                  <h2 class="footer-heading">RESELLER</h2>
+                  <ul class="ulli">
+                     <li><a href="#">Login</a></li>
+                     <li><a href="#">Register</a></li>
+                  </ul>
+               </div>
+               <div class="col-6 col-md-3 col-lg-3">
+                  <h2 class="footer-heading">BUSINESS LISTING</h2>
+                  <ul class="ulli">
+                     <li><a href="#">Login</a></li>
+                     <li><a href="#">Register</a></li>
+                  </ul>
+               </div>
+               <div class="col-6 col-md-2 col-lg-2">
+                  <h2 class="footer-heading">CONTACT</h2>
+                  <ul class="ulli">
+                     <li><a href="#">Contact Us</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="last">
+         <div class="container">
+            <p>Powered By : Bizlx.com™ - Daily Market Update, Hot Deals, Shopping, Sales ©     All Rights Reserved2022</p>
+         </div>
+      </div>
+   </body>
+</html>
+<script>
+   $('#owl-carousel2').owlCarousel({
+       loop: true,
+       margin: 30, 
+       dots: true,  
+       nav: true,       
+       items: 2, 
+       responsive:{               
+           0:{
+               items:4
+           },
+           600:{
+               items:4
+           },
+           1000:{
+               items:8
+           },
+   		 1200:{
+               items:8
+           }
+       }
+   })
+</script>        
+<script>
+   $('#find-job').owlCarousel({
+       loop: true,        
+       margin: 30,      
+       dots: true,     
+       nav: true,          
+       items: 2,     
+       responsive:{     
+           0:{     
+               items:3       
+           },   
+           600:{     
+               items:4     
+           },       
+           1000:{     
+               items:6         
+           },  
+   		 1200:{      
+               items:6      
+           }     
+       }      
+   })           
+</script>
+<script>
+   $('#owl-carousel3').owlCarousel({
+       loop: true,
+       margin: 30,
+       dots: true,
+       nav: true,
+       items: 2,
+       responsive:{
+           0:{
+               items:2
+           },
+           600:{
+               items:3
+           },
+           1000:{
+               items:4
+           },
+   		 1200:{
+               items:5
+           }
+       }
+   })
+</script>
+<script>
+   $('#owl-carousel-info').owlCarousel({
+       loop: true,
+       margin: 30,
+       dots: true,
+       nav: true,
+       items: 2,
+       responsive:{
+           0:{
+               items:2
+           },
+           600:{
+               items:3
+           },
+           1000:{
+               items:4
+           },
+   		 1200:{
+               items:5
+           }
+       }
+   })
+</script><script>
+   $('#owl-carousel1').owlCarousel({
+       loop: true,
+       margin: 30,
+       dots: true,
+       nav: true,
+       items: 2,
+       responsive:{
+           0:{
+               items:2
+           },
+           600:{
+               items:3
+           },
+           1000:{
+               items:4
+           },
+   		 1200:{
+               items:5
+           }
+       }
+   })
+</script>
+<script>
+   $('.owl-carousel').owlCarousel({
+       loop: true,
+       margin: 30,
+       dots: true,
+       nav: true,
+       items: 2,
+       responsive:{
+           0:{
+               items:2
+           },
+           600:{
+               items:2
+           },
+           1000:{
+               items:4
+           },
+   		 1200:{
+               items:4
+           }
+       }
+   })
+</script>
+<script>
+   $('.owl-carousel-city').owlCarousel({
+       loop: true,
+       margin: 30,
+       dots: true,
+       nav: true,
+       items: 2,
+       responsive:{
+           0:{
+               items:2
+           },
+           600:{
+               items:2
+           },
+           1000:{
+               items:4
+           },
+   		 1200:{
+               items:4
+           }
+       }
+   })
+</script>

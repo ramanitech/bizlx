@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Deal Display</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="images/logo.png" href="images/logo.png">
+  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.css">
+	<link rel="stylesheet" href="css/baloo-paaji-2.css">
+	<script src="js/jquery.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+</head>
+<body>
+		<div class="top-bar">
+			<div class="container">
+				<div class="buttons">
+					<button type="button" class="btn btn-danger list-business" id="lists">List Business</button>
+					<a href="#" class="login">Login</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="menu-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2 col-md-2 col-lg-3">
+						<a href="index.html"><img src="images/logo.png" class="img-fluid logo-img"></a>
+					</div>
+					<div class="col-sm-10 col-md-10 col-lg-9" id="form-center">
+						<div class="forms">
+							<form action="advance-search.html">
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="fa fa-th-list icon"></i></span>
+									</div>
+									<select class="form-control" id="sel1">
+										<option>Category</option>
+										<option>Loan</option>
+										<option>Buffet</option>
+										<option>Restaurant </option>
+										<option>Salon </option>
+										<option>Health</option>
+										<option>Spa </option>
+										<option>Real Estate</option>
+										<option>Hotel</option>
+										<option>Shopping</option>
+										<option>B2B</option>
+									</select>
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="fa fa-map-marker icon"></i></span>
+									</div>
+									<select class="form-control" id="sel1">
+										<option>Near</option>
+										<option>Chandigarh</option>
+										<option>Mohali</option>
+										<option>Shimla</option>
+										<option>Delhi</option>
+										<option>Agra</option>
+									</select>
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="fa fa-check-square-o icon"></i></span>
+									</div>
+									<select class="form-control" id="sel1">
+										<option>Deals</option>
+										<option>Hot Deals</option>
+										<option>Video</option>
+										<option>Jobs</option>
+									</select>
+									<button type="button" class="btn btn-danger search" id="search-buton">
+										<i class="fa fa-search"></i> <span class="search-hide">Search</span>
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+                                                                                                                           
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-6">
+					<div class="container-fluid">
+						<div class="carousel-container position-relative row">
+							<div id="myCarousel" class="carousel slide" data-ride="carousel">
+								<div class="carousel-inner">
+									<div class="carousel-item active" data-slide-number="0">
+										<img src="images/hotel1.jpg" class="d-block w-100" data-type="image" data-gallery="example-gallery">
+									</div>
+									<div class="carousel-item" data-slide-number="1">
+										<img src="images/hotel2.jpg" class="d-block w-100" data-type="image" data-gallery="example-gallery">
+									</div>
+									<div class="carousel-item" data-slide-number="2">
+										<img src="images/hotel3.jpg" class="d-block w-100" data-type="image" data-gallery="example-gallery">
+									</div>
+									<div class="carousel-item" data-slide-number="3">
+										<img src="images/hotel4.jpg" class="d-block w-100" data-type="image" data-gallery="example-gallery">
+									</div>
+								</div>
+							</div>
+							<div id="carousel-thumbs" class="carousel slide" data-ride="carousel">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<div class="row">
+											<div id="carousel-selector-0" class="thumb col-3 col-sm-3 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
+												<img src="images/hotel1.jpg" class="img-fluid">
+											</div>
+											<div id="carousel-selector-1" class="thumb col-3 col-sm-3 px-1 py-2" data-target="#myCarousel" data-slide-to="1">
+												<img src="images/hotel2.jpg" class="img-fluid">
+											</div>
+											<div id="carousel-selector-2" class="thumb col-3 col-sm-3 px-1 py-2" data-target="#myCarousel" data-slide-to="2">
+												<img src="images/hotel3.jpg" class="img-fluid">
+											</div>
+											<div id="carousel-selector-3" class="thumb col-3 col-sm-3 px-1 py-2" data-target="#myCarousel" data-slide-to="3">
+												<img src="images/hotel4.jpg" class="img-fluid" >
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-6">
+					<h4 class="home-service">Hyatt Regency Dharamshala Resort</h4>
+					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+					<p class="deals-section" style="margin-bottom:0px;">
+						<span class="span-price">Price : </span> ₹1200 - ₹1800 ( Inclusive of all taxes )</p>
+					<p class="deals-section"><span class="span-price">Deal Time Period : </span> 06-08-2022 - 06-08-2022</p>
+					<div class="call-now-button">
+						<a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp" id="whatsapp"></i></a>
+						<a href="tel:9876543211">
+							<button type="button" class="btn btn-success Share" id="call-now-buton">
+							<i class="fa fa-phone phone-call"></i>  Call Now : +91 9876543211 </button>
+						</a>
+						<button type="button" class="btn btn-danger Enquiry" data-toggle="modal" data-target="#applynow">Send Enquiry</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		               
+		<!------=================Footer========================----->
+		<div class="Follow-Bizlx">
+			<div class="container">
+				<div class="icons">
+					<span class="follow-heading">Follow Bizlx</span>
+					<a href="https://www.facebook.com/bizlx" target="_blank">
+						<img src="images/facebook -logo.png" class="img-fluid fb"/>
+					</a>
+					<a href="https://twitter.com/bizlx_" target="_blank">
+						<img src="images/twitter-logo.png" class="img-fluid fb"/>
+					</a>
+					<a href="https://www.instagram.com/bizlx_/" target="_blank">
+						<img src="images/instagram-logo.png" class="img-fluid fb"/>
+					</a>
+					<a href="https://www.linkedin.com/company/bizlx/" target="_blank">
+						<img src="images/linkedin-logo.png" class="img-fluid fb"/>
+					</a>
+					<a href="https://play.google.com/store/apps/details?id=com.bizlxapp" target="_blank">
+						<img src="images/playstore-logo.png" class="img-fluid playstore"/>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-6 col-md-3 col-lg-3">
+						<h2 class="footer-heading">GENERAL INFO</h2>
+						<ul class="ulli">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">About</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-2 col-lg-2">
+						<h2 class="footer-heading">RESOURCES</h2>
+						<ul class="ulli">
+							<li><a href="#">Payment</a></li>
+							<li><a href="#">Terms Of Use</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-2 col-lg-2">
+						<h2 class="footer-heading">RESELLER</h2>
+						<ul class="ulli">
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Register</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-3 col-lg-3">
+						<h2 class="footer-heading">BUSINESS LISTING</h2>
+						<ul class="ulli">
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Register</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-md-2 col-lg-2">
+						<h2 class="footer-heading">CONTACT</h2>
+						<ul class="ulli">
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="last">
+			<div class="container">
+				<p>Powered By : Bizlx.com™ - Daily Market Update, Hot Deals, Shopping, Sales ©     All Rights Reserved2022</p>
+			</div>
+		</div>
+		<div class="modal fade" id="applynow">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+					 <h4 class="modal-title">Send Enquiry</h4>
+						<button type="button" class="close" data-dismiss="modal">×</button>
+					</div>
+					<!-- Modal body -->
+					<div class="modal-body">
+						<form action="/action_page.php" class="job-page-form"> 
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="name">First Name <span class="star">*</span></label>
+										<input type="text" class="form-control" id="name" placeholder="First Name" name="name" required>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="email">Email <span class="star">*</span></label>
+										<input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+										<label for="Phoneno">Phone no <span class="star">*</span></label>
+										<input type="text" class="form-control" id="Phoneno" placeholder="Phone No" name="Phoneno" required>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+										<label for="comment">Massage <span class="star">*</span></label>
+										<textarea class="form-control" rows="5" placeholder="Description.." id="Massage"></textarea>
+									</div>
+								</div>
+							</div>
+							<button type="submit" class="btn btn-success Share" >Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>
